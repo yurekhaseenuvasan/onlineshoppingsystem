@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" contents="width-device-width, initial-scale=1.0">
+       <title>Online shopping system</title>
+       <link rel="stylesheet" href="style.css">
+       <style>
+       @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+       </style>
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+   </head>
+   <body>
+       <div class="header">
+           <div class="container">
+               <div class="navbar">
+               <div class="logo">
+                   <img src="https://dcassetcdn.com/design_img/1126549/149150/149150_5983802_1126549_thumbnail.jpg" width="125px">
+               </div>
+               <nav>
+                   <ul id="Menuitems">
+                       <li><a href="online.html">Home</a></li>
+                       <li><a href="product.html">Products</a></li>
+                      
+                       <li><a href="account.html">LogIn</a></li>
+                       <li><a href="register.html">Register</a></li>
+                      
+                   
+                   </ul>
+               </nav>
+             <img src="data:image/jpeg;base64,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"
+            width="30px" height="30px">
+                       <a href="javascript:void(0);" class="menu" onclick="menutoggle()">
+                           <i class="fa fa-bars"></i></a>
+                   
+       </div>
+      </div>     
+</div>
+    <!-------------single product-->
+    <div class="small-container single">
+        <div class="row">
+            <div class="col-2">
+                <a href="productd10.html">
+                <img src="https://img3.junaroad.com/uiproducts/17484893/pri_175_p-1610205082.jpg">
+            </div>
+            <div class="col-2">
+                <p>Home / Stylish Wears</p>
+                <h1>Attractive Black Top </h1>
+                <h4>Rs.599</h4>
+                <p>Quantity:1</p>
+                
+                <a href="cart10.html" class="btn">Add to cart</a>
+                <h3>Product Details</h3> <br>
+                <p>Explore the collection of beautifully designed Saree on Fashionstyle 
+                    Each piece is elegantly crafted and will surely add to
+                     your wardrobe. Care Instructions: Hand Wash Only
+                     Fit Type: Regular Fit
+                     Fit Type: Regular Fit
+                     Fabric: Rayon
+                     Pattern: Solid</p>           
+            </div>
+        </div>
+    </div>  
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related products</h2>
+            <p>View more</p>
+        </div>
+
+    
+    </div>
+    
+    <div class="small-container">
+        
+            <div class="row">
+            <div class="col-4">
+                <a href="productd9.html">
+                <img src="https://img3.junaroad.com/uiproducts/17422018/pri_175_p-1606897937.jpg">
+                </a>
+                <h4>Semi-Checked blue top </h4>
+                <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs:430</p>
+            </div>
+            <div class="col-4">
+                
+               <img src="https://img3.junaroad.com/uiproducts/17484893/pri_175_p-1610205082.jpg">
+               <h4>Attractive Black Top</h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+               <p>Rs:599</p>
+           </div>
+           <div class="col-4">
+               <a href="productd11.html">
+               <img src="https://img3.junaroad.com/uiproducts/16861804/pri_175_p-1578908042.jpg"></a>
+               <h4>Sleeveless Navy Blue Top</h4>
+               <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+               </div>
+               <p>Rs:499</p>
+           </div>
+           <div class="col-4">
+               <a href="productd12.html">
+    
+            <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/4325708/2018/4/2/11522662991296-Style-Quotient-Women-Tops-4231522662991112-1.jpg">
+            </a>
+            <h4>White Dotted top</h4>
+            <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rs:599s</p>
+        </div>
+        </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+               <div class="row">
+                   <div class="footer-col-1">
+                       <h3>Download Our App</h3>
+                       <p>Download App for Andriod and ios mobile phone</p>
+                       <div class="app-logo">
+                           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/640px-Google_Play_Store_badge_EN.svg.png">
+                           <img src="https://cooksriver.org.au/wp-content/uploads/2018/09/app-store.png">
+                       </div>
+                   </div>
+                   <div class="footer-col-2">
+                     <img src="https://dcassetcdn.com/design_img/1126549/149150/149150_5983802_1126549_thumbnail.jpg" width="125px">
+                       <p>Our purpose to create the world as fashion world on one click</p>
+                   </div>
+                   <div class="footer-col-3">
+                       <h3>Useful links</h3>
+                       <ul>
+                           <li>Coupons</li>
+                           <li>Blog Post</li>
+                           <li>Return Policy</li>
+                           <li>Join Affliate</li>
+                       </ul>
+                   </div>
+                   <div class="footer-col-4">
+                       <h3>Follow us</h3>
+                       <ul>
+                           <li>Facebook</li>
+                           <li>Instagram</li>
+                           <li>Twitter</li>
+                           <li>Youtube</li>
+    
+                       </ul>
+                   </div>
+               </div>
+               <hr>
+               <p class="copyright">Copyright 2020-Fashionstyle</p>
+            </div>
+        </div>
+        <script src="java.js"></script>
+
+
+ </body>
+</html>
